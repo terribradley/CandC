@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Poiret+One|Raleway|Source+Sans+Pro");
+.container {
+  width: 70%;
+  margin: 0 auto; }
+
+header {
+  height: 20.4em;
+  background-color: #D7E3FB;
+  margin-bottom: 4%; }
+
+nav {
+  padding-top: 5%;
+  padding-left: 16%; }
+  nav ul {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0; }
+    nav ul li {
+      margin-right: 5%;
+      list-style: none; }
+      nav ul li a {
+        text-decoration: none;
+        color: #6F6F6F;
+        font-family: 'Raleway', sans-serif; }
+        nav ul li a:hover {
+          color: black; }
+
+.home-nav {
+  padding-left: 0; }
+  .home-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0; }
+    .home-nav ul li:first-of-type {
+      margin-right: auto;
+      font-size: 2.2em;
+      font-family: 'Raleway', sans-serif;
+      letter-spacing: 4px; }
+
+.home-header img {
+  margin-top: 6.05%;
+  margin-left: 57%; }
+
+.main-intro {
+  display: flex;
+  justify-content: flex-start; }
+  .main-intro p {
+    width: 60%;
+    line-height: 25px;
+    color: #6F6F6F; }
+
+.christy-container {
+  background-color: #eeecf9;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column; }
+
+.teacher-title {
+  width: 50%;
+  text-align: right;
+  padding-top: 6%; }
+  .teacher-title h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.3em;
+    margin: 0;
+    letter-spacing: 4px; }
+  .teacher-title h3 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    font-size: 1em;
+    letter-spacing: 2px; }
+
+.title-space {
+  margin-bottom: 5%; }
+
+.teacher-info {
+  display: flex;
+  flex-wrap: wrap; }
+  .teacher-info div {
+    width: 46%;
+    margin: 0 auto; }
+    .teacher-info div p {
+      padding-top: 1%;
+      color: #6F6F6F;
+      font-size: .95em; }
+    .teacher-info div h2 {
+      color: #6F6F6F;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.4em; }
+    .teacher-info div img {
+      width: 100%; }
+    .teacher-info div ul li {
+      list-style: none;
+      letter-spacing: 1.3px; }
+      .teacher-info div ul li a {
+        text-decoration: none; }
+      .teacher-info div ul li span {
+        font-size: 1.1em;
+        font-weight: bolder; }
+    .teacher-info div ul .second {
+      padding-left: 0; }
+  .teacher-info .left-summer {
+    width: 55%; }
+  .teacher-info .right-summer {
+    width: 32%; }
+
+.teacher-contact {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%; }
+  .teacher-contact div {
+    width: 46%;
+    margin: auto; }
+    .teacher-contact div h3 {
+      text-align: right;
+      color: #6F6F6F;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1em; }
+    .teacher-contact div a {
+      text-decoration: none;
+      color: #6F6F6F;
+      font-family: 'Lato', sans-serif;
+      font-size: 1.3em; }
+      .teacher-contact div a:hover {
+        color: black; }
+    .teacher-contact div p {
+      color: #6F6F6F; }
+
+#finger-image {
+  width: 100%; }
+
+.carl-header {
+  background-color: #ebfafd; }
+  .carl-header .carl-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 93%; }
+  .carl-header .left-title {
+    flex-grow: 0.87;
+    padding-top: 6%; }
+    .carl-header .left-title h1 {
+      font-family: 'Poiret One', cursive;
+      font-size: 2.3em;
+      margin: 0;
+      letter-spacing: 4px; }
+    .carl-header .left-title h3 {
+      font-family: 'Lato', sans-serif;
+      margin: 0;
+      font-size: 1em;
+      letter-spacing: 2px; }
+  .carl-header .teacher-title {
+    padding-top: 0; }
+
+.carl-right {
+  padding-top: 5%; }
+
+#date {
+  width: 70%;
+  margin: auto; }
+  #date p {
+    color: #6F6F6F; }
+
+.gallery {
+  padding-top: 5%; }
+  .gallery img {
+    width: 300px; }
+  .gallery p {
+    text-align: center;
+    margin: 5% 0; }
+    .gallery p a {
+      color: #6F6F6F;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1.3em; }
+      .gallery p a:hover {
+        color: black; }
+
+.archive-header {
+  background-color: #FFF2CD; }
+  .archive-header .archive-bubble-image {
+    padding-top: .5%; }
+
+/*# sourceMappingURL=style.css.map */

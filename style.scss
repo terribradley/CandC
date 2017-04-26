@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Poiret+One|Raleway|Source+Sans+Pro');
+
+$grey-text: #6F6F6F;
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+header {
+  height: 20.4em;
+  background-color: #D7E3FB;
+  margin-bottom: 4%;
+}
+
+
+// ***********navigation*******************************
+nav  {
+  padding-top: 5%;
+  padding-left: 16%;
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    li {
+      margin-right: 5%;
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: $grey-text;
+        font-family: 'Raleway', sans-serif;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
+.home-nav {
+  padding-left: 0;
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    li:first-of-type {
+      margin-right: auto;
+      font-size: 2.2em;
+      font-family: 'Raleway', sans-serif;
+      letter-spacing: 4px;
+    }
+  }
+}
+// ***********homepage******************************
+.home-header {
+  img {
+    margin-top: 6.05%;
+    margin-left: 57%;
+
+  }
+}
+
+// ***********text on home page*********************
+
+.main-intro {
+  display: flex;
+  justify-content: flex-start;
+  p {
+    width: 60%;
+    line-height: 25px;
+    color: $grey-text;
+
+  }
+}
+// ***********text on christy's page*********************
+.christy-container {
+  background-color: #eeecf9;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+}
+.teacher-title {
+  width: 50%;
+  text-align: right;
+  padding-top: 6%;
+  h1 {
+   font-family: 'Poiret One', cursive;
+   font-size: 2.3em;
+   margin: 0;
+   letter-spacing: 4px;
+ }
+ h3 {
+   font-family: 'Raleway', sans-serif;
+   margin: 0;
+   font-size: 1em;
+   letter-spacing: 2px;
+ }
+}
+.title-space {
+  margin-bottom: 5%;
+}
+.teacher-info {
+  display: flex;
+  flex-wrap: wrap;
+  div {
+    width: 46%;
+    margin: 0 auto;
+    p {
+      padding-top: 1%;
+      color: $grey-text;
+      font-size: .95em;
+    }
+    h2 {
+      color: $grey-text;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.4em;
+    }
+    img {
+      width: 100%;
+    }
+    ul li {
+      list-style: none;
+      letter-spacing: 1.3px;
+      a {
+        text-decoration: none;
+      }
+      span {
+        font-size: 1.1em;
+        font-weight: bolder;
+      }
+    }
+    ul .second {
+      padding-left: 0;
+    }
+  }
+  .left-summer {
+    width: 55%
+  }
+  .right-summer {
+    width: 32%;
+  }
+}
+.teacher-contact {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  div {
+    width: 46%;
+    margin: auto;
+    h3 {
+      text-align: right;
+      color: $grey-text;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1em;
+    }
+    a {
+      text-decoration: none;
+      color: $grey-text;
+      font-family: 'Lato', sans-serif;
+      font-size: 1.3em;
+      &:hover {
+        color: black;
+      }
+    }
+    p {
+      color: $grey-text;
+    }
+  }
+}
+#finger-image{
+  width: 100%;
+}
+
+//*******************carl's page***************
+.carl-header {
+  background-color: #ebfafd;
+  .carl-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 93%;
+  }
+  .left-title {
+    flex-grow: 0.87;
+    padding-top: 6%;
+     h1 {
+      font-family: 'Poiret One', cursive;
+      font-size: 2.3em;
+      margin: 0;
+      letter-spacing: 4px;
+    }
+    h3 {
+      font-family: 'Lato', sans-serif;
+      margin: 0;
+      font-size: 1em;
+      letter-spacing: 2px;
+    }
+  }
+  .teacher-title {
+    padding-top: 0;
+  }
+}
+.carl-right {
+  padding-top: 5%;
+}
+
+//*******************summer page***************
+
+#date {
+  width: 70%;
+  margin: auto;
+  p {
+    color: $grey-text;
+  }
+}
+.gallery {
+  padding-top: 5%;
+  img {
+    width: 300px;
+  }
+  p {
+    text-align: center;
+    margin: 5% 0;
+    a {
+      color: $grey-text;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1.3em;
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}
+
+//*******************summer page***************
+.archive-header {
+  background-color: #FFF2CD;
+  .archive-bubble-image {
+    padding-top: .5%;
+  }
+}
