@@ -1,4 +1,3 @@
-
 @import "normalize";
 @import url('https://fonts.googleapis.com/css?family=Lato|Poiret+One|Raleway|Source+Sans+Pro');
 
@@ -60,21 +59,34 @@ nav  {
     display: flex;
     justify-content: flex-end;
     padding: 0;
-    li:first-of-type {
-      margin-right: auto;
-      font-size: 2.2em;
-      font-family: 'Raleway', sans-serif;
-      letter-spacing: 4px;
+    @media screen and (max-width: $break-small) {
+      justify-content: center;
     }
   }
 }
 // ***********homepage******************************
 .home-header {
+  @media screen and (max-width: $break-small) {
+    margin-bottom: 14%;
+  }
   img {
     margin-top: 6.3%;
     margin-left: 57%;
-
+    @media screen and (max-width: $break-small) {
+      width: 85%;
+      margin-top: 34.4%;
+      margin-left: 7.5%;
+    }
   }
+}
+#home-title {
+    font-size: 2.2em;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 4px;
+    @media screen and (max-width: $break-small) {
+      text-align: center;
+      margin: 7% auto 2% auto;
+    }
 }
 
 // ***********text on home page*********************
@@ -82,10 +94,16 @@ nav  {
 .main-intro {
   display: flex;
   justify-content: flex-start;
+  @media screen and (max-width: $break-small)  {
+    justify-content: center;
+  }
   p {
     width: 60%;
     line-height: 25px;
     color: $grey-text;
+    @media screen and (max-width: $break-small) {
+      width: 80%;
+    }
 
   }
 }
