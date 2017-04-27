@@ -8,12 +8,17 @@ $break-small: 500px;
 body {
   margin: 0;
   padding-bottom: 5%;
-  font-family: 'Lato', sans-serif;
 }
 
 .container {
   width: 70%;
   margin: 0 auto 1% auto;
+  p {
+    font-family: 'Lato', sans-serif;
+  }
+  ul li {
+    font-family: 'Lato', sans-serif;
+  }
   @media screen and (max-width: $break-small) {
     width: 100%;
   }
