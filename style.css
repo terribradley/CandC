@@ -379,6 +379,8 @@ body {
   margin: 0 auto 1% auto; }
   .container p {
     font-family: 'Lato', sans-serif; }
+  .container ul li {
+    font-family: 'Lato', sans-serif; }
   @media screen and (max-width: 500px) {
     .container {
       width: 100%; } }
