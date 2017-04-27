@@ -14,10 +14,12 @@ body {
   width: 70%;
   margin: 0 auto 1% auto;
   p {
-    font-family: 'Lato', sans-serif;
+    // font-family: 'Lato', sans-serif;
+    font-family: "Times New Roman", Times, serif;
   }
   ul li {
-    font-family: 'Lato', sans-serif;
+    // font-family: 'Lato', sans-serif;
+    font-family: "Times New Roman", Times, serif;
   }
   @media screen and (max-width: $break-small) {
     width: 100%;
@@ -285,10 +287,13 @@ nav  {
     padding-top: 0;
   }
 }
-.carl-right {
-  padding-top: 5%;
+div .carl-right {
+  // padding-top: 5%;
+  margin-top: 46px;
+  margin-left: auto;
   @media screen and (max-width: $break-small) {
-    padding-top: 0;
+    // padding-top: 0;
+    margin-top: 0;
   }
 }
 

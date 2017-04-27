@@ -378,9 +378,9 @@ body {
   width: 70%;
   margin: 0 auto 1% auto; }
   .container p {
-    font-family: 'Lato', sans-serif; }
+    font-family: "Times New Roman", Times, serif; }
   .container ul li {
-    font-family: 'Lato', sans-serif; }
+    font-family: "Times New Roman", Times, serif; }
   @media screen and (max-width: 500px) {
     .container {
       width: 100%; } }
@@ -604,11 +604,12 @@ nav {
   .carl-header .teacher-title {
     padding-top: 0; }
 
-.carl-right {
-  padding-top: 5%; }
+div .carl-right {
+  margin-top: 46px;
+  margin-left: auto; }
   @media screen and (max-width: 500px) {
-    .carl-right {
-      padding-top: 0; } }
+    div .carl-right {
+      margin-top: 0; } }
 
 .summer-header {
   background-color: #F7EAC7; }
