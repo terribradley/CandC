@@ -416,23 +416,44 @@ nav {
     display: flex;
     justify-content: flex-end;
     padding: 0; }
-    .home-nav ul li:first-of-type {
-      margin-right: auto;
-      font-size: 2.2em;
-      font-family: 'Raleway', sans-serif;
-      letter-spacing: 4px; }
+    @media screen and (max-width: 500px) {
+      .home-nav ul {
+        justify-content: center; } }
 
+@media screen and (max-width: 500px) {
+  .home-header {
+    margin-bottom: 14%; } }
 .home-header img {
   margin-top: 6.3%;
   margin-left: 57%; }
+  @media screen and (max-width: 500px) {
+    .home-header img {
+      width: 85%;
+      margin-top: 34.4%;
+      margin-left: 7.5%; } }
+
+#home-title {
+  font-size: 2.2em;
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 4px; }
+  @media screen and (max-width: 500px) {
+    #home-title {
+      text-align: center;
+      margin: 7% auto 2% auto; } }
 
 .main-intro {
   display: flex;
   justify-content: flex-start; }
+  @media screen and (max-width: 500px) {
+    .main-intro {
+      justify-content: center; } }
   .main-intro p {
     width: 60%;
     line-height: 25px;
     color: #6F6F6F; }
+    @media screen and (max-width: 500px) {
+      .main-intro p {
+        width: 80%; } }
 
 .christy-container {
   background-color: #eeecf9;
