@@ -371,20 +371,31 @@ template {
   display: none; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  padding-bottom: 5%; }
 
 .container {
   width: 70%;
-  margin: 0 auto 5% auto; }
+  margin: 0 auto 1% auto; }
+  @media screen and (max-width: 500px) {
+    .container {
+      width: 100%; } }
 
 header {
   height: 20.4em;
   background-color: #D7E3FB;
   margin-bottom: 4%; }
+  @media screen and (max-width: 500px) {
+    header {
+      height: 23.4em;
+      margin-bottom: 29%; } }
 
 nav {
   padding-top: 5%;
   padding-left: 16%; }
+  @media screen and (max-width: 500px) {
+    nav {
+      padding-left: 10%; } }
   nav ul {
     display: flex;
     justify-content: flex-start;
@@ -433,6 +444,10 @@ nav {
   width: 50%;
   text-align: right;
   padding-top: 6%; }
+  @media screen and (max-width: 500px) {
+    .teacher-title {
+      width: 100%;
+      text-align: center; } }
   .teacher-title h1 {
     font-family: 'Poiret One', cursive;
     font-size: 2.3em;
@@ -450,9 +465,15 @@ nav {
 .teacher-info {
   display: flex;
   flex-wrap: wrap; }
+  @media screen and (max-width: 500px) {
+    .teacher-info {
+      flex-direction: column; } }
   .teacher-info div {
     width: 46%;
     margin: 0 auto; }
+    @media screen and (max-width: 500px) {
+      .teacher-info div {
+        width: 80%; } }
     .teacher-info div p {
       padding-top: 1%;
       color: #6F6F6F;
@@ -460,41 +481,67 @@ nav {
     .teacher-info div h2 {
       color: #6F6F6F;
       font-family: 'Raleway', sans-serif;
-      font-size: 1.4em; }
+      font-size: 1.6em;
+      font-weight: 200; }
     .teacher-info div img {
       width: 100%; }
     .teacher-info div ul li {
       list-style: none;
-      letter-spacing: 1.3px; }
+      letter-spacing: 1.3px;
+      line-height: 22px; }
       .teacher-info div ul li a {
         text-decoration: none; }
       .teacher-info div ul li span {
         font-size: 1.1em;
         font-weight: bolder; }
-    .teacher-info div ul .second {
+    .teacher-info div ul {
       padding-left: 0; }
   .teacher-info .left-summer {
-    width: 55%; }
+    width: 65%; }
+    @media screen and (max-width: 500px) {
+      .teacher-info .left-summer {
+        width: 100%; } }
   .teacher-info .right-summer {
-    width: 32%; }
+    width: 30%; }
+    @media screen and (max-width: 500px) {
+      .teacher-info .right-summer {
+        width: 80%; } }
+    .teacher-info .right-summer h2 {
+      margin-top: 0; }
+      @media screen and (max-width: 500px) {
+        .teacher-info .right-summer h2 {
+          margin-top: 2%; } }
 
 .teacher-contact {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 2%; }
+  padding-top: 1%; }
+  @media screen and (max-width: 500px) {
+    .teacher-contact {
+      flex-direction: column; } }
   .teacher-contact div {
     width: 46%;
     margin: auto; }
+    @media screen and (max-width: 500px) {
+      .teacher-contact div {
+        width: 80%; } }
     .teacher-contact div h3 {
       text-align: right;
       color: #6F6F6F;
       font-family: 'Raleway', sans-serif;
       font-size: 1em; }
+      @media screen and (max-width: 500px) {
+        .teacher-contact div h3 {
+          text-align: left;
+          font-size: 1.1em; } }
     .teacher-contact div a {
       text-decoration: none;
       color: #6F6F6F;
       font-family: 'Lato', sans-serif;
       font-size: 1.3em; }
+      @media screen and (max-width: 500px) {
+        .teacher-contact div a {
+          font-size: 1.2em; } }
       .teacher-contact div a:hover {
         color: black; }
     .teacher-contact div p {
@@ -510,9 +557,15 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     width: 93%; }
+    @media screen and (max-width: 500px) {
+      .carl-header .carl-title {
+        flex-direction: column; } }
   .carl-header .left-title {
     flex-grow: 0.87;
     padding-top: 6%; }
+    @media screen and (max-width: 500px) {
+      .carl-header .left-title {
+        margin-bottom: 5%; } }
     .carl-header .left-title h1 {
       font-family: 'Poiret One', cursive;
       font-size: 2.3em;
@@ -528,31 +581,64 @@ nav {
 
 .carl-right {
   padding-top: 5%; }
+  @media screen and (max-width: 500px) {
+    .carl-right {
+      padding-top: 0; } }
+
+.summer-header {
+  background-color: #F7EAC7; }
+  @media screen and (max-width: 500px) {
+    .summer-header {
+      height: 14em;
+      margin-bottom: 0; } }
 
 #date {
   width: 70%;
-  margin: auto; }
+  margin: 5% auto 0 auto; }
+  @media screen and (max-width: 500px) {
+    #date {
+      width: 80%; } }
   #date p {
     color: #6F6F6F; }
 
 .gallery {
-  padding-top: 5%; }
+  padding-top: 5%;
+  width: 90%;
+  margin: 0 5%; }
+  @media screen and (max-width: 500px) {
+    .gallery {
+      width: 100%; } }
   .gallery img {
-    width: 300px; }
+    width: 31%;
+    margin: 1%; }
+    @media screen and (max-width: 500px) {
+      .gallery img {
+        width: 90%;
+        margin-left: auto; } }
   .gallery p {
     text-align: center;
     margin: 5% 0; }
+    @media screen and (max-width: 500px) {
+      .gallery p {
+        margin: 4%;
+        width: 80%; } }
     .gallery p a {
       color: #6F6F6F;
       text-align: center;
       text-decoration: none;
       font-size: 1.3em;
       font-family: 'Raleway', sans-serif; }
+      @media screen and (max-width: 500px) {
+        .gallery p a {
+          font-size: 1em; } }
       .gallery p a:hover {
         color: black; }
 
 .archive-header {
   background-color: #FFF2CD; }
+  @media screen and (max-width: 500px) {
+    .archive-header {
+      margin-bottom: 10%; } }
   .archive-header .archive-bubble-image {
     padding-top: .5%; }
 
