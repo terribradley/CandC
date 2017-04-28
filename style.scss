@@ -3,7 +3,7 @@
 
 $grey-text: #6F6F6F;
 $break-small: 500px;
-// $break-large: 1200px;
+$break-large: 1400px;
 
 body {
   margin: 0;
@@ -75,12 +75,15 @@ nav  {
     margin-bottom: 14%;
   }
   img {
-    margin-top: 5.9%;
+    margin-top: 8.4%;
     margin-left: 57%;
     @media screen and (max-width: $break-small) {
       width: 85%;
-      margin-top: 34.4%;
+      margin-top: 49.4%;
       margin-left: 7.5%;
+    }
+    @media screen and (min-width: $break-large) {
+      margin-top: 5.9%;
     }
   }
 }
