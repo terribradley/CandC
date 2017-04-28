@@ -391,8 +391,7 @@ header {
   margin-bottom: 4%; }
   @media screen and (max-width: 500px) {
     header {
-      height: 23.4em;
-      margin-bottom: 29%; } }
+      height: 25.4em; } }
 
 nav {
   padding-top: 5%;
@@ -502,7 +501,8 @@ nav {
     .teacher-info div p {
       padding-top: 1%;
       color: #6F6F6F;
-      font-size: .95em; }
+      font-size: .95em;
+      margin-bottom: 0; }
     .teacher-info div h2 {
       color: #6F6F6F;
       font-family: 'Raleway', sans-serif;
@@ -577,17 +577,22 @@ nav {
 
 .carl-header {
   background-color: #ebfafd; }
+  @media screen and (max-width: 500px) {
+    .carl-header {
+      margin-bottom: 40%; } }
   .carl-header .carl-title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 93%; }
+    width: 100%; }
     @media screen and (max-width: 500px) {
       .carl-header .carl-title {
-        flex-direction: column; } }
+        flex-direction: column; }
+        .carl-header .carl-title div.carl-image img {
+          width: 99%; } }
   .carl-header .left-title {
     flex-grow: 0.87;
-    padding-top: 6%; }
+    padding-top: 70px; }
     @media screen and (max-width: 500px) {
       .carl-header .left-title {
         margin-bottom: 5%; } }
@@ -604,12 +609,11 @@ nav {
   .carl-header .teacher-title {
     padding-top: 0; }
 
-div .carl-right {
-  margin-top: 46px;
-  margin-left: auto; }
+.carl-right {
+  padding-top: 40px; }
   @media screen and (max-width: 500px) {
-    div .carl-right {
-      margin-top: 0; } }
+    .carl-right {
+      padding-top: 0; } }
 
 .summer-header {
   background-color: #F7EAC7; }
