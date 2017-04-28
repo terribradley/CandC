@@ -14,11 +14,9 @@ body {
   width: 70%;
   margin: 0 auto 1% auto;
   p {
-    // font-family: 'Lato', sans-serif;
     font-family: "Times New Roman", Times, serif;
   }
   ul li {
-    // font-family: 'Lato', sans-serif;
     font-family: "Times New Roman", Times, serif;
   }
   @media screen and (max-width: $break-small) {
@@ -30,8 +28,7 @@ header {
   background-color: #D7E3FB;
   margin-bottom: 4%;
   @media screen and (max-width: $break-small) {
-    height: 23.4em;
-    margin-bottom: 29%;
+    height: 25.4em;
   }
 }
 
@@ -162,6 +159,7 @@ nav  {
       padding-top: 1%;
       color: $grey-text;
       font-size: .95em;
+      margin-bottom: 0;
     }
     h2 {
       color: $grey-text;
@@ -255,18 +253,24 @@ nav  {
 //*******************carl's page***************
 .carl-header {
   background-color: #ebfafd;
+  @media screen and (max-width: $break-small) {
+    margin-bottom: 40%;
+  }
   .carl-title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 93%;
+    width: 100%;
     @media screen and (max-width: $break-small) {
       flex-direction: column;
+      div.carl-image img {
+        width: 99%;
+      }
     }
   }
   .left-title {
     flex-grow: 0.87;
-    padding-top: 6%;
+    padding-top: 70px;
     @media screen and (max-width: $break-small) {
       margin-bottom: 5%;
     }
@@ -287,13 +291,10 @@ nav  {
     padding-top: 0;
   }
 }
-div .carl-right {
-  // padding-top: 5%;
-  margin-top: 46px;
-  margin-left: auto;
+.carl-right {
+  padding-top: 40px;
   @media screen and (max-width: $break-small) {
-    // padding-top: 0;
-    margin-top: 0;
+    padding-top: 0;
   }
 }
 
