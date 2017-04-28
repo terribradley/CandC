@@ -254,7 +254,7 @@ nav  {
 .carl-header {
   background-color: #ebfafd;
   @media screen and (max-width: $break-small) {
-    margin-bottom: 41%;
+    margin-bottom: 40%;
   }
   .carl-title {
     display: flex;
@@ -263,8 +263,8 @@ nav  {
     width: 100%;
     @media screen and (max-width: $break-small) {
       flex-direction: column;
-      div .carl-image img {
-        width: 100%;
+      div.carl-image img {
+        width: 99%;
       }
     }
   }

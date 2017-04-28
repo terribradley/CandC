@@ -579,7 +579,7 @@ nav {
   background-color: #ebfafd; }
   @media screen and (max-width: 500px) {
     .carl-header {
-      margin-bottom: 41%; } }
+      margin-bottom: 40%; } }
   .carl-header .carl-title {
     display: flex;
     flex-direction: row;
@@ -588,8 +588,8 @@ nav {
     @media screen and (max-width: 500px) {
       .carl-header .carl-title {
         flex-direction: column; }
-        .carl-header .carl-title div .carl-image img {
-          width: 100%; } }
+        .carl-header .carl-title div.carl-image img {
+          width: 99%; } }
   .carl-header .left-title {
     flex-grow: 0.87;
     padding-top: 70px; }
